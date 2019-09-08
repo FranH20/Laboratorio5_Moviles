@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageHelado"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:contentDescription="@string/app_name"></ImageView>
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageHelado"
+            android:layout_marginLeft="15sp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/textIngredientes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTitulo"
+            android:layout_toEndOf="@id/imageHelado"
+            android:layout_marginLeft="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textIngredientes"
+            android:layout_toEndOf="@id/imageHelado"
+            android:layout_marginLeft="15sp"></TextView>
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listaHelados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

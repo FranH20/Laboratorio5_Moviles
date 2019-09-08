@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentsAndroid</string>
+    <string name="custom_call">Llamar</string>
+    <string name="custom_location">Ubicar</string>
+    <string name="custom_web">Navegar</string>
+    <string name="choser_title">Elegir Aplicacion</string>
+    <string name="send_to">Enviar con:</string>
+</resources>

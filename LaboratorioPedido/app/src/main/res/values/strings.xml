@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LaboratorioPedido</string>
+    <string name="send_to">Enviar con:</string>
+
+    <string name="check1">Helado de Chocolate</string>
+    <string name="check2">Helado de Fresa</string>
+    <string name="check3">Helado de Vainilla</string>
+    <string name="btnMensaje">Enviar pedido</string>
+    <string name="msnHelado">Bienvenidos a la Heladaria Frosty Roll</string>
+
+</resources>
